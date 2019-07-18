@@ -1,0 +1,26 @@
+{
+  "name": "db4-challenge",
+  "version": "1.0.0",
+  "description": "Recipe Book API",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "y"
+  },
+  "keywords": [
+    "Recipe",
+    "API",
+    "Data",
+    "Modelling"
+  ],
+  "author": "Damola Adewunmi",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.19.0",
+    "sqlite": "^3.0.3"
+  }
+}
