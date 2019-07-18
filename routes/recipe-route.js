@@ -16,4 +16,16 @@ router.get('/', async (req, res) => {
 })
 
 
+router.get('/:id/shoppinglist', async (req, res) => {
+    try{
+        const recipe = await dbConnect.getShoppingList(req.params.id);
+        res.status(201).json(recipe);
+
+    }catch(error) {
+        res.status(501).json({
+            message: error.toString()
+        })
+    }
+})
+
 module.exports = router;
